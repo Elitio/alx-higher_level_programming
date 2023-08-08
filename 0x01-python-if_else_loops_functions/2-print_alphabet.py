@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-letters in range(97, 123):
-    print(f"{}".format(chr(letters)), end="")
+print("".join(chr(i) for i in range(97, 123)), end="")
