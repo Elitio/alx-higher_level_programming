@@ -7,4 +7,5 @@ if __name__ == "__main__":
     from add_0 import add
     a = 1
     b = 2
-    print("{} + {} = {}".format(a, b, a + b))
+    answer = a + b
+    print("{} + {} = {}".format(a, b, answer))
