@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-if __name__ = "__main__":
+if __name__ == "__main__":
     from sys import argv
     count = len(argv) - 1
     # When no arguments are passed
     if count == 0:
         print("{} arguments.".format(count))
     # when 1 argument is passed
-    elif counter == 1:
+    elif count == 1:
         print("{} argument:".format(count))
     # When more arguments
     else:
