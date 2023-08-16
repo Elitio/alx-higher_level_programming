@@ -16,5 +16,5 @@ You are allowed to use regular loops, map, etc.
 
 
 def square_matrix_simple(matrix=[]):
-    new_matrix = [list(map((lanbda x: x * x), members)) for members in matrix]
+    new_matrix = [list(map((lambda x: x * x), members)) for members in matrix]
     return (new_matrix)
